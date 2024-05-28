@@ -24,7 +24,7 @@
     </div>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            fetch('changelog.txt')
+            fetch('https://raw.githubusercontent.com/v3kmww/jailbreak-changelogs/main/changelog.txt?token=GHSAT0AAAAAACSOE5VLC46RTPJT5TRIYID2ZSVYYEQ')
                 .then(response => response.text())
                 .then(data => {
                     const lines = data.split('\n');
