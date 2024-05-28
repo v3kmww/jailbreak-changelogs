@@ -24,7 +24,7 @@
     </div>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            fetch('https://github.com/v3kmww/jailbreak-changelogs/blob/main/changelog.txt')
+            fetch('http://127.0.0.1:5000')
                 .then(response => response.text())
                 .then(data => {
                     const lines = data.split('\n');
@@ -39,6 +39,9 @@
                             contentHtml += `<li>${line.substring(2)}</li>`;
                         } else if (line.startsWith('- - ')) {
                             contentHtml += `<ul><li>${line.substring(4)}</li></ul>`;
+                        } else if (line.startsWith('> > ')) {
+                            contentHtml += `<h3 class="centered-line">${line.substring(4)}</h3>`;
+
                         }
                     });
 
