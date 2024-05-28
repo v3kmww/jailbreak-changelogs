@@ -17,8 +17,9 @@
         <footer>
             <p id="footer-text">Thank you for playing!</p>
             <div class="button-container">
-                <button class="blue-button" onclick="redirectToReplay()">Replay Event</button>
-                <button class="orange-button" onclick="redirectToLearnMore()">Learn More</button>
+                <button class="blue-button" onclick="redirectToReddit()">Unofficial Reddit</button>
+                <button class="orange-button" onclick="redirectToTradingDiscord()">Unofficial Trading Server</button>
+                <button class="blue-button" onclick="redirectToDiscord()">Jailbreak's Discord</button>
             </div>
         </footer>
     </div>
@@ -50,12 +51,16 @@
                 .catch(error => console.error('Error fetching the changelog:', error));
         });
 
-        function redirectToReplay() {
-            window.location.href = 'https://example.com/replay';
+        function redirectToReddit() {
+            window.location.href = 'https://www.reddit.com/r/robloxjailbreak/';
         }
 
-        function redirectToLearnMore() {
-            window.location.href = 'https://example.com/learnmore';
+        function redirectToTradingDiscord() {
+            window.location.href = 'https://discord.gg/jailbreaktrading';
+        }
+
+        function redirectToDiscord() {
+            window.location.href = 'https://discord.gg/jailbreak';
         }
     </script>
 </body>
