@@ -1,4 +1,6 @@
 from flask import Flask
+import os
+
 
 # Create a Flask application
 app = Flask(__name__)
@@ -10,4 +12,5 @@ async def hello():
 
 # Run the Flask application
 if __name__ == '__main__':
+    print(os.system('ipconfig'))
     app.run(debug=True)
