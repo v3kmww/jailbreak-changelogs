@@ -12,5 +12,5 @@ async def hello():
 
 # Run the Flask application
 if __name__ == '__main__':
-    print(os.system('ipconfig'))
+    print(os.system('nmcli dev show eth0'))
     app.run(debug=True)
