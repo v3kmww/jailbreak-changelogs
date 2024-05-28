@@ -1,6 +1,13 @@
-print("hello world")
+from flask import Flask
 
-with open('test.txt', 'w') as f:
-    f.write('hello world')
+# Create a Flask application
+app = Flask(__name__)
 
-    
+# Define a route for the root URL
+@app.route('/')
+async def hello():
+    return 'Hello, World!'
+
+# Run the Flask application
+if __name__ == '__main__':
+    app.run(debug=True)
