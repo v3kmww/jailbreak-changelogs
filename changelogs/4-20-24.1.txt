@@ -4,7 +4,7 @@
 - Hey friends! Nice to see you again. We finally got the long-awaited LIVE EVENT! If you missed it, remember replays happen later today and tomorrow morning. Also, redeem code 7years for 14k cash! (valid this weekend only!) Have you ever wished to stay informed about the specific details of each new update as they're released? Well, now you can! While the length of the logs may vary depending on the update, we'll share them as soon as they become available. This is especially helpful for those who may not actively follow the official Discord server, where these updates are also posted.The most recent Changelogs will always be pinned, so make sure to check back on the next update!
 
 ## Live Event
-- New Plasma Shotgun weapon, found from nearby alien encounters.
+- New Plasma Shotgun weapon, found from nearby alien encounters.g
 - Added morse code hype dish.
 - Added support for Boss Health.
 - New: Players entering the event late are now brought up to sync instead of being met with a broken view.
